@@ -13,7 +13,7 @@ DetectDogBreed.ipynb will allow you to utilize the trained model to test your ow
 
 ## How this model was built
 
-This type of identification problem in machine learning is called "multi-class image classification". It's multi-class because we're trying to classify mutliple different breeds of dog.
+This type of identification problem in machine learning is called **"multi-class image classification"**. It's multi-class because we're trying to classify mutliple different breeds of dog.
 
 Our goal is to build a model capable of detecting and labeling dog breeds. So from a high level, our model needs to be capable of 2 things.
 
@@ -23,7 +23,7 @@ Our goal is to build a model capable of detecting and labeling dog breeds. So fr
 Of course, building an entire machine learning model from scratch which specializes in classifying images is extremely time consuming. Since the goal is not to re-invent image classification models, 
 but rather to focus on using image classification to detect dog breeds, we can utilize a technique called Transfer Learning.
 
-Transfer learning is the idea of using an already existing model which specializes in a specific domain/function, and then applying it to another similar problem. In our case, TensorFlow Hub is a 
+**Transfer learning** is the idea of using an already existing model which specializes in a specific domain/function, and then applying it to another similar problem. In our case, TensorFlow Hub is a 
 website which contains many pre-trained image classification models. There is also lot's of existing data out there on different dog breeds through websites such as Kaggle. So what we can do is download a 
 model from TensorFlow Hub which specializes in classifying images, and then use transfer learning to further train that model on a dog breed dataset from Kaggle. 
 This will result in a model which can look at images by analyzing RGB() patterns in pixels, and using the patterns to identify dog breeds. Therefore, the following 6 steps were taken to train this model:
