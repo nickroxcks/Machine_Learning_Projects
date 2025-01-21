@@ -13,8 +13,7 @@ DetectDogBreed.ipynb will allow you to utilize the trained model to test your ow
 
 ## How this model was built
 
-This type of identification problem in machine learning is called **"multi-class image classification"**. It's multi-class because we're trying to classify mutliple different breeds of dog.
-
+This type of identification problem in machine learning is called **"multi-class image classification"**. It's a multi-classification problem rather then a binary-classification problem because we're trying to classify mutliple different breeds of dog.
 Our goal is to build a model capable of detecting and labeling dog breeds. So from a high level, our model needs to be capable of 2 things.
 
 1. Be able to recognize different colors at different pixel locations in an image and identify patterns.
